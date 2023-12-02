@@ -72,6 +72,8 @@ ul li{
     font-size: 20px;
 }
 
+/* ------item list-------- */
+
 .item-list h1{
     font-family: 'Marck Script', cursive;
     text-align: center;
@@ -101,12 +103,15 @@ ul li{
     padding: 15px 50px;
     margin: 0 42%;
     border-radius: 15px;
+    margin-bottom: 50px;
    
 }
 .item-list button a{
     color: #ffffff;
     text-transform: uppercase;
 }
+
+/* ---------More Info------- */
 
 .more-info{
     background-image: url(./images/more\ info\ bg.png);
@@ -146,5 +151,44 @@ ul li{
 }
 .more-info button a{
     color: black;
+    text-transform: uppercase;
+}
+
+/* --------Offer Section-------  */
+
+.offer-menu {
+    margin: 20px 10%;
+    padding: 5%;
+}
+.offer1{
+    margin-bottom: 200px;
+}
+.offer-menu img{
+    width: 400px;
+
+}
+.offer-menu h2{
+    font-size: 45px;
+}
+.offer-menu p{
+    font-size: 30px;
+}
+.offer1 img{
+    float: left;
+    
+}
+.offer2 img{
+    float: right;
+}
+.offer-menu button{
+    background-color: black;
+    font-size: 20px;
+    padding: 15px 50px;
+    margin: 30px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+.offer-menu button a{
+    color: #ffffff;
     text-transform: uppercase;
 }
