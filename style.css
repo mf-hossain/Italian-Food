@@ -20,7 +20,7 @@ ul li{
    
    
 }
-.container{
+.header-section .container{
     display: flex;
     justify-content: space-between;
 }
@@ -68,6 +68,83 @@ ul li{
     
     margin: 20px 30px;
     margin-right: 70%;
-    padding-bottom: 500px;
+    padding-bottom: 400px;
     font-size: 20px;
+}
+
+.item-list h1{
+    font-family: 'Marck Script', cursive;
+    text-align: center;
+    font-size: 60px;
+}
+.item-list .first{
+    text-align: center;
+    font-size: 25px;
+    margin: 20px  20%;
+    margin-bottom: 40px;
+}
+.item-list img{
+    width: 200px;
+}
+.item-list .container{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 280px;
+    padding: 40px;
+}
+.item{
+    padding: 30px;
+}
+.item-list button{
+    background-color: black;
+    font-size: 20px;
+    padding: 15px 50px;
+    margin: 0 42%;
+    border-radius: 15px;
+   
+}
+.item-list button a{
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.more-info{
+    background-image: url(./images/more\ info\ bg.png);
+    color: #ffffff;
+    /* text-align: center; */
+    font-size: 15px;
+    
+}
+.more-info h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Marck Script', cursive;
+}
+.more-info .container{
+    display: flex;
+    justify-content: space-around;
+}
+.more-info .para1{
+    margin: 30px 120px ;
+    text-align: justify;
+    font-size: 15px;
+ 
+}
+.more-info .para2{
+    margin: 30px 120px ;
+   text-align: justify;
+   font-size: 15px;
+}
+.more-info button{
+    background-color: #ffffff;
+    font-size: 20px;
+    padding: 15px 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 43%;
+    border-radius: 15px;
+}
+.more-info button a{
+    color: black;
+    text-transform: uppercase;
 }
