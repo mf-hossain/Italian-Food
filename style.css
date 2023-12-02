@@ -24,6 +24,9 @@ ul li{
     display: flex;
     justify-content: space-between;
 }
+ul input{
+    padding: 8px 25px;
+}
 .header-section img{
     margin-top: 120px;
     margin-left: 15px;
@@ -168,10 +171,10 @@ ul li{
 
 }
 .offer-menu h2{
-    font-size: 45px;
+    font-size: 35px;
 }
 .offer-menu p{
-    font-size: 30px;
+    font-size: 25px;
 }
 .offer1 img{
     float: left;
@@ -185,10 +188,113 @@ ul li{
     font-size: 20px;
     padding: 15px 50px;
     margin: 30px;
-    border-radius: 15px;
+    border-radius: 25px;
     margin-bottom: 50px;
 }
 .offer-menu button a{
     color: #ffffff;
     text-transform: uppercase;
+}
+
+/* ------about section------ */
+
+.About{
+    background-image: url(./images/pizza\ bg.png);
+
+}
+.About h1{
+    text-align: center;
+    margin: 10px;
+    padding: 25px;
+    padding-top: 380px;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Marck Script', cursive;
+}
+.About p{
+    text-align: center;
+    margin: 10px;
+    padding: 15px 25%;
+    padding-bottom: 850px;
+    color: #ffffff;
+    font-size: 25px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+  
+}
+.special{
+    padding: 20px;
+    margin: 40px;
+}
+.special h2{
+    font-family: 'Marck Script', cursive;
+    font-size: 35px;
+}
+.para{
+    text-align: center;
+    font-size: 25px;
+    margin: 20%;
+    margin-bottom: 25px;
+}
+h4{
+    text-align: center;
+    padding-bottom: 100px;
+
+}
+
+.footer-bg{
+    background-image: url(./images/footer\ bg.png);
+}
+.footer-bg h1{
+   padding-top: 18%;
+   text-align: center;
+   color: #ffffff;
+   font-size: 50px;
+}
+.footer-bg p{
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 20%;
+    font-size: 25px;
+}
+.footer-bg input {
+    margin: 20px 40%;
+    padding: 10px 50px;
+    border-radius: 15px;
+}
+.footer-bg button{
+    margin: 40px 35%;
+    margin-left: -42%;
+    padding: 10px 25px ;
+    border-radius: 15px;
+    background-color: rgb(46, 44, 44);
+    margin-bottom: 30%;
+}
+.footer-bg button a{
+    color: #ffffff;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 200px;
+}
+.footer .title{
+    margin-right: 300px;
+    margin: 0 50px;
+}
+.footer .container{
+    margin: 10px 70px;
+}
+.about{
+    margin: 0 50px;
+}
+.services{
+    margin: 0 50px;
+}
+.other{
+    margin: 0 50px;
 }
