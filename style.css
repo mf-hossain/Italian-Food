@@ -1,8 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+/* font-family: 'Marck Script', cursive; */
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing:border-box ;
 }
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+}
 .header-section{
     background-image: url(./images/banner\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+   
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.header-section img{
+    margin-top: 120px;
+    margin-left: 15px;
+}
+.nav-bar nav ul li a{
+    color: #ffffff;
+    font-size: 22px;
+    padding: 10px;
+ 
+}
+.nav-bar nav ul li{
+    display: inline-block;
+    margin-top: 40px;
+}
+.header-section h1{
+    font-family:'Marck Script', cursive;
+    color: #ffffff;
+    font-size: 140px;
+    margin: 20px;
+    padding-top: 50px;
+}
+.header-section .first{
+    color: #ffffff;
+    margin: 20px 30px;
+    padding: 10px;
+    font-size: 50px;
+}
+.header-section button{
+    background-color: #ffffff;
+    font-size: 20px;
+    padding: 15px 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+.header-section button a{
+    color: black;
+}
+.header-section p{
+    color: #ffffff;
+    
+    margin: 20px 30px;
+    margin-right: 70%;
+    padding-bottom: 500px;
+    font-size: 20px;
 }
