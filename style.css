@@ -23,12 +23,16 @@ ul li{
 .header-section .container{
     display: flex;
     justify-content: space-between;
+    margin-left:80px ;
+    margin-right: 30px;
 }
 ul input{
-    padding: 8px 25px;
+    padding: 8px 30px;
+    margin: 0 10px;
+    border-radius: 20px;
 }
 .header-section img{
-    margin-top: 120px;
+    margin-top: 60px;
     margin-left: 15px;
 }
 .nav-bar nav ul li a{
@@ -36,6 +40,13 @@ ul input{
     font-size: 22px;
     padding: 10px;
  
+}
+
+.nav-bar nav ul li a:hover{
+    color: rgb(126, 179, 181);
+    transition: 1s;
+    width: 100%;
+
 }
 .nav-bar nav ul li{
     display: inline-block;
@@ -47,10 +58,11 @@ ul input{
     font-size: 140px;
     margin: 20px;
     padding-top: 50px;
+   margin-left: 80px;
 }
 .header-section .first{
     color: #ffffff;
-    margin: 20px 30px;
+    margin: 20px 80px;
     padding: 10px;
     font-size: 50px;
 }
@@ -60,7 +72,7 @@ ul input{
     padding: 15px 32px;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 50px;
+    margin-left: 80px;
     border-radius: 10px;
 }
 .header-section button a{
@@ -69,7 +81,7 @@ ul input{
 .header-section p{
     color: #ffffff;
     
-    margin: 20px 30px;
+    margin: 20px 80px;
     margin-right: 70%;
     padding-bottom: 400px;
     font-size: 20px;
@@ -167,14 +179,14 @@ ul input{
     margin-bottom: 200px;
 }
 .offer-menu img{
-    width: 400px;
+    width: 600px;
 
 }
 .offer-menu h2{
-    font-size: 35px;
+    font-size: 50px;
 }
 .offer-menu p{
-    font-size: 25px;
+    font-size: 30px;
 }
 .offer1 img{
     float: left;
@@ -200,29 +212,34 @@ ul input{
 
 .About{
     background-image: url(./images/pizza\ bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 70px;
 
 }
 .About h1{
     text-align: center;
-    margin: 10px;
-    padding: 25px;
-    padding-top: 380px;
+    margin: 0 10px 10px 10px;
+    padding: 0 25px 25px 25px;
+    padding-top: 280px;
     color: #ffffff;
-    font-size: 50px;
+    font-size: 70px;
     font-family: 'Marck Script', cursive;
 }
 .About p{
     text-align: center;
     margin: 10px;
     padding: 15px 25%;
-    padding-bottom: 850px;
+    padding-bottom: 950px;
     color: #ffffff;
     font-size: 25px;
 }
-.container{
+.container1{
     display: flex;
     justify-content: space-between;
-    margin: 60px;
+    margin: 0 80px;
+    
+    
   
 }
 .special{
@@ -236,12 +253,13 @@ ul input{
 .para{
     text-align: center;
     font-size: 25px;
-    margin: 20%;
+    margin: 7% 25%;
     margin-bottom: 25px;
 }
 h4{
     text-align: center;
     padding-bottom: 100px;
+    font-size: 25px;
 
 }
 
@@ -284,17 +302,20 @@ h4{
 }
 .footer .title{
     margin-right: 300px;
-    margin: 0 50px;
+    margin: 0 100px;
+    margin-right: 200px;
 }
 .footer .container{
-    margin: 10px 70px;
+    margin: 10px 100px;
+    display: flex;
+    justify-content: space-between;
 }
 .about{
-    margin: 0 50px;
+    margin: 0 60px;
 }
 .services{
-    margin: 0 50px;
+    margin: 0 60px;
 }
 .other{
-    margin: 0 50px;
+    margin: 0 60px;
 }
